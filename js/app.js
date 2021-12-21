@@ -8,6 +8,5 @@ color.addEventListener("input", () => {
   const value = color.value;
   salida.innerHTML = value;
   document.body.style.background = value;
-  document.body.style.color = "#FFFFFF";
   console.log(value);
 });

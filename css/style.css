@@ -7,15 +7,16 @@ body {
 	font-family: 'Roboto Mono', monospace;
 }
 
+.salida,
 h2 {
-	text-align: center;
-}
-
-.salida {
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
-	font-size: medium;
+	font-size: 1.7rem;
+	letter-spacing: 0.2rem;
+	color: #fff;
+	text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px 0 #000,
+		-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
 #border {
